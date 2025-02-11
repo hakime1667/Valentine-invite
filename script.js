@@ -18,7 +18,7 @@ function nextStep(answer, step) {
 }
 
 function submitForm() {
-    let mailtoLink = `mailto:hakim@example.com?subject=San%20Valentino&body=Cibo:%20${responses['food']}%0A
+    let mailtoLink = `mailto:hakime1667@gmail.com?subject=San%20Valentino&body=Cibo:%20${responses['food']}%0A
         Bevanda:%20${responses['drink']}%0A
         Attività:%20${responses['activity']}`;
     window.location.href = mailtoLink;
