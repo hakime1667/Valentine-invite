@@ -1,6 +1,7 @@
 body {
-    background-image: url('C:\Users\azinezine\OneDrive - Deloitte (O365D)\Desktop\New folder\la-festa-di-san-valentino-e-la-sua-origine-italiana.jpg');
-    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffebf2;
 }
 
 .hidden {
