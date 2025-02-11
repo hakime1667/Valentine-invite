@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentino</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="step1">
+        <h2>Hai impegni per il 14 febbraio?</h2>
+        <button onclick="nextStep('yes', 1)">Sì</button>
+        <button onclick="nextStep('no', 1)">No</button>
+    </div>
+
+    <div id="step2a" class="hidden">
+        <h2>Spero che questo impegno includa me...</h2>
+        <button onclick="nextStep('yes', 2)">Sì</button>
+        <button onclick="nextStep('no', 2)">No</button>
+    </div>
+
+    <div id="step2b" class="hidden">
+        <h2>Bene! Allora non prendere impegni...</h2>
+        <button onclick="nextStep('yes', 3)">Sì</button>
+        <button onclick="nextStep('no', 3)">No</button>
+    </div>
+
+    <div id="summary" class="hidden">
+        <h2>Riepilogo della tua scelta</h2>
+        <p id="summaryText"></p>
+        <button onclick="submitForm()">Invia le risposte</button>
+    </div>
+</body>
+</html>
